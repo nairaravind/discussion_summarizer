@@ -36,7 +36,7 @@ The app will open in your browser at `http://localhost:8501`
 |---|---|
 | **Dual Input Modes** | Analyze top N posts from the HN homepage, or paste a specific discussion URL |
 | **Structured Analysis** | Generates summary, key themes, notable insights, sentiment, controversy signal, and reasoning trace |
-| **Persistent Cache** | Results saved to `hn_cache.json` — avoids repeat Gemini calls for already-processed URLs |
+| **Persistent Cache** | Results saved to `cache.json` — avoids repeat Gemini calls for already-processed URLs |
 | **API Key Flexibility** | Reads from `.env` automatically; falls back to sidebar input if not found |
 | **Processing Lock** | UI controls disabled during analysis to prevent conflicting actions mid-run |
 | **Collapsible Results** | Each post's analysis shown in its own expandable section |
@@ -50,7 +50,7 @@ The app will open in your browser at `http://localhost:8501`
 ### Top N Posts Mode
 1. Fetches the HN homepage and parses the top N post titles and their discussion links (`item?id=...`)
 2. For each post: checks cache → returns instantly on hit; calls Gemini on miss
-3. Saves new results to `hn_cache.json` and displays with a progress bar
+3. Saves new results to `cache.json` and displays with a progress bar
 4. Each result shown in a collapsible section labelled with the post title
 
 ### Single URL Mode
@@ -67,7 +67,7 @@ The app will open in your browser at `http://localhost:8501`
 | Function | Responsibility |
 |---|---|
 | `Summarizer` (Pydantic) | Defines the output schema for Gemini responses |
-| `_load_cache / _save_cache` | Read and write `hn_cache.json` |
+| `_load_cache / _save_cache` | Read and write `cache.json` |
 | `get_or_analyze()` | Cache lookup wrapper — returns cached result or triggers a Gemini call |
 | `read_data_url()` | Fetches raw HTML from a URL |
 | `get_top_posts()` | Scrapes HN homepage for post titles and discussion URLs |
@@ -118,12 +118,12 @@ REASONING TRACE
 
 ## Caching
 
-Results are stored in `hn_cache.json` as a flat key-value map of URL to formatted result string. The cache persists across app restarts.
+Results are stored in `cache.json` as a flat key-value map of URL to formatted result string. The cache persists across app restarts.
 
 - **Cache hit** — result returned instantly
 - **Cache miss** — Gemini is called, result saved to disk before returning
 - **Cache log** — shown in a collapsible expander after each run
-- **Clear cache** — available in the sidebar to wipe `hn_cache.json`
+- **Clear cache** — available in the sidebar to wipe `cache.json`
 
 ---
 
@@ -148,7 +148,7 @@ YYYY-MM-DD-HH-MM-SS - <module> - <LEVEL> - <message>
 ```
 .
 ├── post_summarizer_stapp_cache.py  # Main application
-├── hn_cache.json                   # Persistent cache (auto-created)
+├── cache.json                   # Persistent cache (auto-created)
 ├── logs/
 │   └── app.log                     # Application logs (auto-created)
 ├── .env                            # API key (not committed)
