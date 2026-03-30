@@ -1,0 +1,1193 @@
+2026-03-27-15-20-15 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-15-20-15 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-15-20-15 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-20-16 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-15-20-16 - post_summarizer_stapp_cache - INFO - Found 2 posts
+2026-03-27-15-20-16 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-15-20-16 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-20-16 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-20-16 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-23-02 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-15-23-02 - post_summarizer_stapp_cache - INFO - Fetching top 6 posts from https://news.ycombinator.com
+2026-03-27-15-23-02 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-23-03 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - INFO - Found 6 posts from https://news.ycombinator.com
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 6
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539767
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47535708
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47518960
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47536761
+2026-03-27-15-23-03 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-23-07 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-15-23-07 - post_summarizer_stapp_cache - INFO - Fetching top 8 posts from https://news.ycombinator.com
+2026-03-27-15-23-07 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-23-08 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Found 8 posts from https://news.ycombinator.com
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 8
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539767
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47535708
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47518960
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47536761
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47493246
+2026-03-27-15-23-08 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47493246
+2026-03-27-15-23-09 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47493246
+2026-03-27-15-23-09 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-23-10 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47493246 HTTP/1.1" 200 None
+2026-03-27-15-23-10 - post_summarizer_stapp_cache - DEBUG - Fetched 4326 chars from https://news.ycombinator.com/item?id=47493246
+2026-03-27-15-23-10 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-23-10 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-23-10 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D30A5840D0>
+2026-03-27-15-23-10 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002D30A1AC5F0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-23-10 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D30A5841D0>
+2026-03-27-15-23-10 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-23-10 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-23-10 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-23-10 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-23-10 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-23-17 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 09:53:17 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=6776'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-23-17 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-23-17 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-23-17 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-23-17 - _trace - DEBUG - response_closed.started
+2026-03-27-15-23-17 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-23-17 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47493246
+2026-03-27-15-23-17 - _trace - DEBUG - close.started
+2026-03-27-15-23-17 - _trace - DEBUG - close.complete
+2026-03-27-15-23-17 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47493246
+2026-03-27-15-23-17 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47492894
+2026-03-27-15-23-17 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47492894
+2026-03-27-15-23-17 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47492894
+2026-03-27-15-23-17 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-23-18 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47492894 HTTP/1.1" 200 None
+2026-03-27-15-23-18 - post_summarizer_stapp_cache - DEBUG - Fetched 26204 chars from https://news.ycombinator.com/item?id=47492894
+2026-03-27-15-23-18 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-23-18 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-23-18 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D30A584AD0>
+2026-03-27-15-23-18 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002D3067E9EB0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-23-19 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D30A217290>
+2026-03-27-15-23-19 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-23-19 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-23-19 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-23-19 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-23-19 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-23-30 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 09:53:30 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=11014'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-23-30 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-23-30 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-23-30 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-23-30 - _trace - DEBUG - response_closed.started
+2026-03-27-15-23-30 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-23-30 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47492894
+2026-03-27-15-23-30 - _trace - DEBUG - close.started
+2026-03-27-15-23-30 - _trace - DEBUG - close.complete
+2026-03-27-15-23-30 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47492894
+2026-03-27-15-23-30 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-27-21 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-27-21 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47506251
+2026-03-27-15-27-21 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47506251
+2026-03-27-15-27-21 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47506251
+2026-03-27-15-27-21 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-27-22 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47506251 HTTP/1.1" 200 None
+2026-03-27-15-27-22 - post_summarizer_stapp_cache - DEBUG - Fetched 442773 chars from https://news.ycombinator.com/item?id=47506251
+2026-03-27-15-27-22 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-27-22 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-27-23 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029CB644D8D0>
+2026-03-27-15-27-23 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000029CB62648C0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-27-23 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029CB644D890>
+2026-03-27-15-27-23 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-27-23 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-27-23 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-27-23 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-27-23 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-30-25 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:00:25 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=182300'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-30-25 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-30-25 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-30-25 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-30-25 - _trace - DEBUG - response_closed.started
+2026-03-27-15-30-25 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-30-25 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47506251
+2026-03-27-15-30-25 - _trace - DEBUG - close.started
+2026-03-27-15-30-25 - _trace - DEBUG - close.complete
+2026-03-27-15-30-25 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47506251
+2026-03-27-15-30-25 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47506251. Result: ============================================================
+Custom URL
+https://news.ycombinator.com/item?id=47506251
+============================================================
+
+SUMMARY
+-------
+Arm has announced its own silicon product called the 'Arm AGI CPU,' where AGI stands for 'Agentic AI Infrastructure.' This marks a historic shift for the company from a design-licensing model to selling finished chips directly to customers like Meta and OpenAI, manufactured via TSMC's 3nm process.
+
+KEY THEMES
+----------
+  • Deceptive product naming and marketing ethics
+  • Arm's business model pivot from licensing to direct silicon sales
+  • The ongoing technical and philosophical debate over the definition of AGI (Artificial General Intelligence)
+  • Comparison of Arm's Neoverse architecture against x86 competitors like Intel and AMD
+  • Market hype and potential for securities manipulation through buzzwords
+
+NOTABLE INSIGHTS
+----------------
+  1. The acronym 'AGI' in this context was backfilled to mean 'Agentic AI Infrastructure,' which many commenters view as an intentional attempt to conflate the product with 'Artificial General Intelligence.'
+  2. This move puts Arm in direct competition with its own licensees (like Qualcomm and Apple), a strategy that was previously denied by Arm leadership.
+  3. Technical specs reveal the CPU uses the Neoverse V3 core, which is essentially a server-optimized version of the Cortex-X4 smartphone core.
+  4. Commenters pointed out that the partnership with Supermicro comes at a sensitive time following recent legal indictments against Supermicro founders.
+  5. While Arm claims 'rack-scale efficiency,' critics argue that Intel's Clearwater Forest and AMD's latest server chips still provide higher core density and bandwidth per board.
+
+COMMUNITY SENTIMENT
+-------------------
+Predominantly cynical and skeptical. The Hacker News community is largely critical of the 'marketing slop' and the use of the AGI acronym, with many describing the branding as 'fraudulent' or 'shameless.'
+
+CONTROVERSY SIGNAL
+------------------
+High. There is a fierce debate regarding the ethics of the product name, as well as a secondary, heated disagreement among users about whether modern LLMs already constitute AGI or are merely 'glorified text predictors.'
+
+REASONING TRACE
+---------------
+I initially identified that the naming convention (AGI) triggered the most engagement. I then cross-referenced technical details mentioned in the comments, such as the Neoverse V3 platform and the transition to direct manufacturing. I categorized the sentiment based on the prevalence of negative terms like 'securities fraud,' 'snake oil,' and 'lie' versus the few technical defenders. I synthesized the business implications by noting the recurring theme of Arm competing with its own customers.
+
+2026-03-27-15-30-25 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-38-02 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-38-02 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-38-02 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47539825. Result: ============================================================
+A Faster Alternative to Jq
+https://news.ycombinator.com/item?id=47539825
+============================================================
+
+SUMMARY
+-------
+The discussion revolves around a blog post introducing 'jsongrep', a high-performance search-focused alternative to the popular JSON processor 'jq'. The conversation explores the trade-offs between processing speed and query language expressiveness, with users debating whether the performance gains are necessary for typical workflows.
+
+KEY THEMES
+----------
+  • Performance vs. Utility: Is the speed of CLI tools a 'quality in itself' or a marginal gain?
+  • Big Data Use Cases: Handling multi-terabyte ndjson (Newline Delimited JSON) log files.
+  • Search vs. Transformation: The functional differences between a specialized search tool (jsongrep) and a Turing-complete processor (jq).
+  • Alternative Ecosystems: The rise of shells like Nushell that handle structured data natively.
+  • Technical Documentation UX: Criticism of the blog post's UI, specifically broken light mode CSS and inconsistent chart scaling.
+
+NOTABLE INSIGHTS
+----------------
+  1. jsongrep is deliberately less expressive than jq; it is a search tool that finds values but does not compute new ones or perform transformations like string interpolation.
+  2. Users processing terabyte-scale log files often abandon jq for custom Node.js or Rust scripts because jq's overhead becomes a bottleneck in data pipelines.
+  3. Speed in CLI tools is described as a 'perceptive' quality—if a user has time to think about the tool's progress, it is considered slow, affecting the flow of technical work.
+  4. Nushell is suggested as a comprehensive alternative that replaces the need for various format-specific tools (jq, yq, xsv) with a single syntax.
+  5. Large-scale ndjson files are commonly generated by structured logging from server fleets, though some users argue these should be indexed in databases like Postgres or SQLite for better queryability.
+
+COMMUNITY SENTIMENT
+-------------------
+The sentiment is generally 'curious but skeptical.' Developers appreciate the engineering behind high-performance tools, but many question if the trade-off (losing jq's powerful transformation features) is worth it for daily tasks. There is also a distinct 'meta-critique' regarding the blog's presentation.
+
+CONTROVERSY SIGNAL
+------------------
+Moderate. There is a healthy debate between 'speed maximalists' who believe every millisecond matters and pragmatists who find existing tools like jq sufficient for standard-sized datasets. There is also disagreement on whether flat files are appropriate for terabyte-scale data.
+
+REASONING TRACE
+---------------
+I analyzed the HTML to identify the core subject: a blog post about 'jsongrep'. I categorized the comments into three main buckets: those discussing the tool's utility/speed, those discussing massive-scale data processing (TB files), and those discussing the blog's technical presentation (CSS bugs/charts). I then synthesized these views to identify the conflict between 'search vs. transformation' and 'speed vs. features' that defines the current CLI tool landscape on Hacker News.
+
+2026-03-27-15-38-02 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-38-26 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-38-26 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47534564
+2026-03-27-15-38-26 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47534564
+2026-03-27-15-38-27 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47534564
+2026-03-27-15-38-27 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-38-28 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47534564 HTTP/1.1" 200 None
+2026-03-27-15-38-28 - post_summarizer_stapp_cache - DEBUG - Fetched 9128 chars from https://news.ycombinator.com/item?id=47534564
+2026-03-27-15-38-28 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-38-28 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-38-28 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029CB2929110>
+2026-03-27-15-38-28 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000029CB2898D40> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-38-28 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029CB643F1D0>
+2026-03-27-15-38-28 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-38-28 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-38-28 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-38-28 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-38-28 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-38-42 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:08:42 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=14063'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-38-42 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-38-42 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-38-42 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-38-42 - _trace - DEBUG - response_closed.started
+2026-03-27-15-38-42 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-38-42 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47534564
+2026-03-27-15-38-42 - _trace - DEBUG - close.started
+2026-03-27-15-38-42 - _trace - DEBUG - close.complete
+2026-03-27-15-38-42 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47534564
+2026-03-27-15-38-42 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47534564. Result: ============================================================
+Custom URL
+https://news.ycombinator.com/item?id=47534564
+============================================================
+
+SUMMARY
+-------
+Chroma introduced 'Context-1,' a research project focused on training a self-editing search agent that can autonomously prune and manage its context for improved retrieval. However, the announcement has been met with public allegations that the research was borrowed from another group without proper attribution.
+
+KEY THEMES
+----------
+  • Plagiarism and academic attribution
+  • Agentic retrieval strategies
+  • Context pruning vs. tombstoning
+  • Self-reforming context dynamics
+
+NOTABLE INSIGHTS
+----------------
+  1. A user alleges that their team shared identical research with Chroma's CEO months prior and that the current release fails to cite their original work.
+  2. Technically, the discussion compares Chroma's pruning method to 'tombstoning' approaches used by other agents like Kimi.
+  3. Observation that high levels of context compression can lead to a state where the system effectively reconstructs its own context automatically rather than just filtering data.
+
+COMMUNITY SENTIMENT
+-------------------
+Mixed and skeptical. While there is technical curiosity regarding the agent's behavior, the most prominent feedback is a serious accusation regarding the lack of citation for prior work.
+
+CONTROVERSY SIGNAL
+------------------
+High. Despite the low number of comments, a direct public accusation of plagiarism against the CEO of the company creates a significant ethical debate.
+
+REASONING TRACE
+---------------
+The analysis was derived by reviewing the three comments provided in the HTML. The first comment is a high-impact allegation of missing citations, which sets a controversial tone. The second and third comments focus on the technical mechanics of the search agent, allowing for a balanced view of both the ethical conflict and the technological discussion.
+
+2026-03-27-15-38-42 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-39-26 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-15-39-26 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-15-39-26 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-39-27 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-15-39-27 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-15-39-27 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-15-39-27 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-39-27 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-39-27 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-48-22 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-48-22 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47534564
+2026-03-27-15-48-22 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47534564. Result: ============================================================
+Custom URL
+https://news.ycombinator.com/item?id=47534564
+============================================================
+
+SUMMARY
+-------
+Chroma introduced 'Context-1,' a research project focused on training a self-editing search agent that can autonomously prune and manage its context for improved retrieval. However, the announcement has been met with public allegations that the research was borrowed from another group without proper attribution.
+
+KEY THEMES
+----------
+  • Plagiarism and academic attribution
+  • Agentic retrieval strategies
+  • Context pruning vs. tombstoning
+  • Self-reforming context dynamics
+
+NOTABLE INSIGHTS
+----------------
+  1. A user alleges that their team shared identical research with Chroma's CEO months prior and that the current release fails to cite their original work.
+  2. Technically, the discussion compares Chroma's pruning method to 'tombstoning' approaches used by other agents like Kimi.
+  3. Observation that high levels of context compression can lead to a state where the system effectively reconstructs its own context automatically rather than just filtering data.
+
+COMMUNITY SENTIMENT
+-------------------
+Mixed and skeptical. While there is technical curiosity regarding the agent's behavior, the most prominent feedback is a serious accusation regarding the lack of citation for prior work.
+
+CONTROVERSY SIGNAL
+------------------
+High. Despite the low number of comments, a direct public accusation of plagiarism against the CEO of the company creates a significant ethical debate.
+
+REASONING TRACE
+---------------
+The analysis was derived by reviewing the three comments provided in the HTML. The first comment is a high-impact allegation of missing citations, which sets a controversial tone. The second and third comments focus on the technical mechanics of the search agent, allowing for a balanced view of both the ethical conflict and the technological discussion.
+
+2026-03-27-15-48-22 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-48-50 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-48-50 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-48-50 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-48-50 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-48-50 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-48-51 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-15-48-51 - post_summarizer_stapp_cache - DEBUG - Fetched 12370 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-48-51 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-48-51 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-48-51 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029CB674BED0>
+2026-03-27-15-48-51 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000029CB299B380> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-48-51 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000029CB6233410>
+2026-03-27-15-48-51 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-48-51 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-48-51 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-48-51 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-48-51 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-49-16 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:19:16 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=24984'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-49-16 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-49-16 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-49-16 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-49-16 - _trace - DEBUG - response_closed.started
+2026-03-27-15-49-16 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-49-16 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-49-16 - _trace - DEBUG - close.started
+2026-03-27-15-49-16 - _trace - DEBUG - close.complete
+2026-03-27-15-49-16 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-49-16 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: ============================================================
+Custom URL
+https://news.ycombinator.com/item?id=47535626
+============================================================
+
+SUMMARY
+-------
+Fio is a new, lightweight 3D world editor and game engine that utilizes a brush-based CSG (Constructive Solid Geometry) workflow. Inspired by classic tools like Radiant and Hammer/Worldcraft, it aims for high performance on modest hardware (like Snapdragon 8CX) using OpenGL 3.3 and features real-time lighting with stencil shadows, eliminating the need for slow pre-baked compilation phases.
+
+KEY THEMES
+----------
+  • Nostalgia for 90s and early 2000s level design (Quake 3, Half-Life)
+  • The technical implementation of legacy-style 3D rendering (CSG, BSP, and stencil shadows)
+  • The difficulty of entering the modern, saturated game engine market
+  • The transition from hobbyist modding/mapping to professional software development
+
+NOTABLE INSIGHTS
+----------------
+  1. One commenter with 10 years of experience in the space notes that the game engine market is so saturated that visibility and SEO are often more important than the product's technical merits.
+  2. The creator highlights that the engine is currently in an early stage with 14 examples, inviting community contribution for features like angled brushes and new entity types.
+  3. Technical interest persists in whether modern 'retro' engines still utilize Binary Space Partitioning (BSP) for draw optimization, a staple of the engines that inspired Fio.
+
+COMMUNITY SENTIMENT
+-------------------
+Positive and nostalgic. The community responds warmly to the classic 'feel' of the tool, though there is a layer of pragmatic skepticism regarding its ability to find a niche in a crowded market.
+
+CONTROVERSY SIGNAL
+------------------
+Low. The discussion is constructive and polite, with the only friction being a realistic warning about industry saturation rather than any personal or technical conflict.
+
+REASONING TRACE
+---------------
+I identified the core product through the author's top-level description and GitHub link. I then categorized the comments into three main buckets: nostalgia-driven (voidfunc), technically inquisitive (LarsDu88), and industry-pragmatic (samiv). The sentiment was determined to be positive because the critical advice regarding 'market saturation' was framed as helpful 'good luck' rather than dismissal. I checked for controversy by looking for downvoted or argumentative replies, of which there were none.
+
+2026-03-27-15-49-16 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-50-05 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-50-05 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-50-05 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-50-05 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-50-05 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-50-06 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-15-50-06 - post_summarizer_stapp_cache - DEBUG - Fetched 12370 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-50-06 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-50-06 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-50-06 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E962EC890>
+2026-03-27-15-50-06 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000015E96134E60> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-50-06 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E962D9150>
+2026-03-27-15-50-06 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-50-06 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-50-06 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-50-06 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-50-06 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-50-52 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:20:52 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=45578'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-50-52 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-50-52 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-50-52 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-50-52 - _trace - DEBUG - response_closed.started
+2026-03-27-15-50-52 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-50-52 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-50-52 - _trace - DEBUG - close.started
+2026-03-27-15-50-52 - _trace - DEBUG - close.complete
+2026-03-27-15-50-52 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-50-52 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: ============================================================
+Custom URL
+https://news.ycombinator.com/item?id=47535626
+============================================================
+
+SUMMARY
+-------
+Fio is a new, lightweight 3D world editor and game engine that utilizes brush-based Constructive Solid Geometry (CSG), drawing heavy inspiration from classic tools like GtkRadiant and Valve's Hammer/Worldcraft. It aims to provide real-time lighting and stencil shadows without the need for traditional, time-consuming map compilation, targeting modest hardware like the Snapdragon 8CX.
+
+KEY THEMES
+----------
+  • Nostalgia for 90s and 2000s-era level design (Quake 3, Source engine)
+  • Technical implementation of world editors (BSPs, CSG, real-time rendering)
+  • The viability of new game engines in a saturated market
+  • Transitioning from childhood hobbyist modding to professional development
+
+NOTABLE INSIGHTS
+----------------
+  1. A developer with 10 years of experience suggests that for a new engine to succeed today, visibility and a Unique Selling Point (USP) are often more important than the technical quality of the product itself.
+  2. The engine differentiates itself from its inspirations by providing real-time lighting and stencil shadows, removing the 'pre-baked' compilation step common in original Quake-derived editors.
+  3. There is still a strong community appetite for 'liminal' or retro-style brush editors that offer a simpler workflow than modern high-fidelity engines.
+  4. The project currently exists as a base with 14 examples, with the creator seeking community help to implement more advanced features like angled brushes.
+
+COMMUNITY SENTIMENT
+-------------------
+Generally positive and nostalgic, though tempered with a dose of professional realism regarding the difficulty of gaining traction in the current software ecosystem.
+
+CONTROVERSY SIGNAL
+------------------
+Low. The only slight tension comes from a comment warning the creator about the 'nearly impossible' task of gaining interest in a saturated market, but this is framed as helpful advice rather than an attack.
+
+REASONING TRACE
+---------------
+I analyzed the post content and the six associated comments. I categorized the responses into three groups: nostalgic/personal (voidfunc, HauntingPin), technical (LarsDu88), and market-oriented (samiv). I noted the author's (vicioussquid) engagement to clarify the current state of the project. This allowed me to synthesize the summary and themes by weighing the project's technical goals against the community's practical feedback.
+
+2026-03-27-15-50-52 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-52-05 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-52-15 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-52-15 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-52-16 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-15-52-16 - post_summarizer_stapp_cache - DEBUG - Fetched 12370 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-52-16 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-52-16 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-52-16 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-52-16 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-52-17 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-15-52-17 - post_summarizer_stapp_cache - DEBUG - Fetched 12370 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-52-17 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-52-17 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-52-17 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E964FA6D0>
+2026-03-27-15-52-17 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000015E9272B770> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-52-18 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E96146DD0>
+2026-03-27-15-52-18 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-52-18 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-52-18 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-52-18 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-52-18 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-52-27 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:22:27 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=9135'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-52-27 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-52-27 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-52-27 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-52-27 - _trace - DEBUG - response_closed.started
+2026-03-27-15-52-27 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-52-27 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-52-27 - _trace - DEBUG - close.started
+2026-03-27-15-52-27 - _trace - DEBUG - close.complete
+2026-03-27-15-52-27 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-52-27 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: ============================================================
+Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News
+https://news.ycombinator.com/item?id=47535626
+============================================================
+
+SUMMARY
+-------
+Fio is a newly released, lightweight 3D world editor and game engine inspired by classic brush-based tools like Radiant and Hammer. It features a unified forward renderer and real-time lighting with stencil shadows, eliminating the need for traditional pre-baked lightmaps, and is designed to run on modest hardware like the Snapdragon 8CX using OpenGL 3.3.
+
+KEY THEMES
+----------
+  • Nostalgia for 90s/2000s map-making (Quake/Source engine eras)
+  • The technical implementation of Constructive Solid Geometry (CSG)
+  • The difficulty of entering the modern, saturated game engine market
+  • Real-time rendering vs. traditional pre-baked compilation workflows
+
+NOTABLE INSIGHTS
+----------------
+  1. The engine currently includes 14 examples, but the creator is actively seeking community help to implement advanced features like angled brushes.
+  2. A industry veteran noted that for a new engine to gain traction today, marketing and a unique selling point (USP) are often more critical than the underlying technology due to market saturation.
+  3. The project aims for a 'liminal' aesthetic, focusing on a specific visual style associated with brush-based geometry.
+  4. The implementation uses stencil shadows for real-time lighting, which is a departure from the 'compile and wait' workflow typical of old-school Radiant-based editors.
+
+COMMUNITY SENTIMENT
+-------------------
+Overall positive and nostalgic. The discussion is characterized by developers reminiscing about their early days in modding and map-making, tempered by a realistic view of the challenges facing new engine development.
+
+CONTROVERSY SIGNAL
+------------------
+Low. There are no significant arguments; the most 'critical' comment is a pragmatic piece of advice regarding the difficulty of finding an audience in a crowded market.
+
+REASONING TRACE
+---------------
+I analyzed the post content and the 6 comments available. I identified the technical specifications provided by the author (vicioussquid) and categorized the responses into three main buckets: technical inquiries (BSPs and usage), nostalgic reflection (Radiant/Hammer), and industry advice (market saturation). I used these categories to derive the themes and insights.
+
+2026-03-27-15-52-27 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-53-49 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-53-49 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-53-49 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-53-50 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-15-53-50 - post_summarizer_stapp_cache - DEBUG - Fetched 12370 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-53-50 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-53-50 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-53-51 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-53-51 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-53-52 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-15-53-52 - post_summarizer_stapp_cache - DEBUG - Fetched 12370 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-53-52 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-53-52 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-53-52 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E9654DA50>
+2026-03-27-15-53-52 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000015E927284D0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-53-52 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E964F86D0>
+2026-03-27-15-53-52 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-53-52 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-53-52 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-53-52 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-53-52 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-54-35 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:24:35 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=42862'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-54-35 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-54-35 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-54-35 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-54-35 - _trace - DEBUG - response_closed.started
+2026-03-27-15-54-35 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-54-35 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-54-35 - _trace - DEBUG - close.started
+2026-03-27-15-54-35 - _trace - DEBUG - close.complete
+2026-03-27-15-54-35 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-54-35 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: ============================================================
+Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News
+https://news.ycombinator.com/item?id=47535626
+============================================================
+
+SUMMARY
+-------
+Fio is a newly released, lightweight 3D world editor and game engine inspired by classic brush-based tools like Radiant and Worldcraft/Hammer. It utilizes a Constructive Solid Geometry (CSG) workflow, features a unified forward renderer with real-time stencil shadows, and is designed to run on modest hardware like the Snapdragon 8CX using OpenGL 3.3.
+
+KEY THEMES
+----------
+  • Nostalgia for 90s/2000s level design workflows (Quake/Source eras)
+  • Game engine market saturation and the difficulty of gaining visibility
+  • Technical implementation of classic rendering and optimization techniques (CSG, BSPs, stencil shadows)
+  • The transition from hobbyist level design to professional software development
+
+NOTABLE INSIGHTS
+----------------
+  1. The engine avoids pre-baked lightmaps, opting for real-time lighting with stencil shadows, which is a departure from the traditional workflows of the tools it was inspired by.
+  2. Veteran developers in the space suggest that a new engine requires a Unique Selling Proposition (USP) and significant marketing/SEO effort to survive in a saturated market.
+  3. The project currently includes 14 examples but is seeking community contributions for features like angled brushes and new entity types.
+  4. Targeting specific, lower-power hardware like the Snapdragon 8CX suggests a focus on portability and efficiency over high-end graphical features.
+
+COMMUNITY SENTIMENT
+-------------------
+The sentiment is a mix of warm nostalgia and professional realism. While users are excited by the 'old school' workflow, there is a clear warning about the competitive landscape of modern game engines.
+
+CONTROVERSY SIGNAL
+------------------
+Low. The discussion is constructive, though there is a slight tension between the technical enthusiasm for a new tool and the pragmatic skepticism regarding its market viability.
+
+REASONING TRACE
+---------------
+I reviewed the submission text and the six comments provided. I categorized the responses into nostalgic appreciation (voidfunc, HauntingPin), technical inquiry (LarsDu88, tines), and industry-level critique (samiv). I synthesized the technical specifications from the OP's description to provide a technical summary, then mapped the community's primary concerns and interests to the themes and insights sections.
+
+2026-03-27-15-54-35 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-54-56 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-55-00 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-55-00 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-55-01 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-15-55-01 - post_summarizer_stapp_cache - DEBUG - Fetched 12370 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-55-01 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-55-01 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: ============================================================
+Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News
+https://news.ycombinator.com/item?id=47535626
+============================================================
+
+SUMMARY
+-------
+Fio is a newly released, lightweight 3D world editor and game engine inspired by classic brush-based tools like Radiant and Worldcraft/Hammer. It utilizes a Constructive Solid Geometry (CSG) workflow, features a unified forward renderer with real-time stencil shadows, and is designed to run on modest hardware like the Snapdragon 8CX using OpenGL 3.3.
+
+KEY THEMES
+----------
+  • Nostalgia for 90s/2000s level design workflows (Quake/Source eras)
+  • Game engine market saturation and the difficulty of gaining visibility
+  • Technical implementation of classic rendering and optimization techniques (CSG, BSPs, stencil shadows)
+  • The transition from hobbyist level design to professional software development
+
+NOTABLE INSIGHTS
+----------------
+  1. The engine avoids pre-baked lightmaps, opting for real-time lighting with stencil shadows, which is a departure from the traditional workflows of the tools it was inspired by.
+  2. Veteran developers in the space suggest that a new engine requires a Unique Selling Proposition (USP) and significant marketing/SEO effort to survive in a saturated market.
+  3. The project currently includes 14 examples but is seeking community contributions for features like angled brushes and new entity types.
+  4. Targeting specific, lower-power hardware like the Snapdragon 8CX suggests a focus on portability and efficiency over high-end graphical features.
+
+COMMUNITY SENTIMENT
+-------------------
+The sentiment is a mix of warm nostalgia and professional realism. While users are excited by the 'old school' workflow, there is a clear warning about the competitive landscape of modern game engines.
+
+CONTROVERSY SIGNAL
+------------------
+Low. The discussion is constructive, though there is a slight tension between the technical enthusiasm for a new tool and the pragmatic skepticism regarding its market viability.
+
+REASONING TRACE
+---------------
+I reviewed the submission text and the six comments provided. I categorized the responses into nostalgic appreciation (voidfunc, HauntingPin), technical inquiry (LarsDu88, tines), and industry-level critique (samiv). I synthesized the technical specifications from the OP's description to provide a technical summary, then mapped the community's primary concerns and interests to the themes and insights sections.
+
+2026-03-27-15-55-01 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-15-55-29 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-15-55-32 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-55-32 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-55-33 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-15-55-33 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-55-34 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-15-55-34 - post_summarizer_stapp_cache - DEBUG - Fetched 12370 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-15-55-34 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-15-55-34 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-15-55-34 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-15-55-34 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-55-34 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-55-34 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-55-34 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-55-35 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47539825 HTTP/1.1" 200 None
+2026-03-27-15-55-35 - post_summarizer_stapp_cache - DEBUG - Fetched 90629 chars from https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-55-35 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-55-35 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-55-35 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E96617990>
+2026-03-27-15-55-35 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000015E96134290> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-55-35 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E96617950>
+2026-03-27-15-55-35 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-55-35 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-55-35 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-55-35 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-55-35 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-55-53 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:25:53 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=17876'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-55-53 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-55-53 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-55-53 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-55-53 - _trace - DEBUG - response_closed.started
+2026-03-27-15-55-53 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-55-53 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-55-53 - _trace - DEBUG - close.started
+2026-03-27-15-55-53 - _trace - DEBUG - close.complete
+2026-03-27-15-55-53 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47539825
+2026-03-27-15-55-53 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-55-53 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-55-54 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-55-54 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-15-55-55 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47539188 HTTP/1.1" 200 None
+2026-03-27-15-55-55 - post_summarizer_stapp_cache - DEBUG - Fetched 161262 chars from https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-55-55 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-15-55-55 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-15-55-55 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E9661F290>
+2026-03-27-15-55-55 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000015E92729EB0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-15-55-55 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000015E9661F210>
+2026-03-27-15-55-55 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-15-55-55 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-15-55-55 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-15-55-55 - _trace - DEBUG - send_request_body.complete
+2026-03-27-15-55-55 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-15-56-07 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:26:07 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=12315'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-15-56-07 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-15-56-07 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-15-56-07 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-15-56-07 - _trace - DEBUG - response_closed.started
+2026-03-27-15-56-07 - _trace - DEBUG - response_closed.complete
+2026-03-27-15-56-07 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-56-07 - _trace - DEBUG - close.started
+2026-03-27-15-56-07 - _trace - DEBUG - close.complete
+2026-03-27-15-56-07 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47539188
+2026-03-27-15-56-07 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-03-42 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-03-42 - post_summarizer_stapp_cache - INFO - Fetching top 3 posts from https://news.ycombinator.com
+2026-03-27-16-03-42 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-03-43 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-03-43 - post_summarizer_stapp_cache - INFO - Found 3 posts from https://news.ycombinator.com
+2026-03-27-16-03-43 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 3
+2026-03-27-16-03-43 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-03-43 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-16-03-43 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47539767
+2026-03-27-16-03-43 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47539767
+2026-03-27-16-03-43 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47539767
+2026-03-27-16-03-43 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-03-44 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47539767 HTTP/1.1" 200 None
+2026-03-27-16-03-44 - post_summarizer_stapp_cache - DEBUG - Fetched 11341 chars from https://news.ycombinator.com/item?id=47539767
+2026-03-27-16-03-44 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-16-03-44 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-16-03-44 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001857BAA6190>
+2026-03-27-16-03-44 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001857B960A70> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-16-03-44 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001857BD48990>
+2026-03-27-16-03-44 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-16-03-44 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-16-03-44 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-16-03-44 - _trace - DEBUG - send_request_body.complete
+2026-03-27-16-03-44 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-16-04-02 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:34:02 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=17443'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-16-04-02 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-16-04-02 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-16-04-02 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-16-04-02 - _trace - DEBUG - response_closed.started
+2026-03-27-16-04-02 - _trace - DEBUG - response_closed.complete
+2026-03-27-16-04-02 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47539767
+2026-03-27-16-04-02 - _trace - DEBUG - close.started
+2026-03-27-16-04-02 - _trace - DEBUG - close.complete
+2026-03-27-16-04-02 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47539767
+2026-03-27-16-04-02 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-04-49 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-16-04-49 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-04-49 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-04-50 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-16-04-50 - post_summarizer_stapp_cache - DEBUG - Fetched 12371 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-04-50 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-04-50 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-04-51 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-04-51 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-04-52 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-16-04-52 - post_summarizer_stapp_cache - DEBUG - Fetched 12371 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-04-52 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-16-04-52 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-16-04-52 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001857BDEF450>
+2026-03-27-16-04-52 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001857B961880> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-16-04-52 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001857BDEF410>
+2026-03-27-16-04-52 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-16-04-52 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-16-04-52 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-16-04-52 - _trace - DEBUG - send_request_body.complete
+2026-03-27-16-04-52 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-16-05-02 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:35:02 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=9298'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-16-05-02 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-16-05-02 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-16-05-02 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-16-05-02 - _trace - DEBUG - response_closed.started
+2026-03-27-16-05-02 - _trace - DEBUG - response_closed.complete
+2026-03-27-16-05-02 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-05-02 - _trace - DEBUG - close.started
+2026-03-27-16-05-02 - _trace - DEBUG - close.complete
+2026-03-27-16-05-02 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-05-02 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: ============================================================
+Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News
+https://news.ycombinator.com/item?id=47535626
+============================================================
+
+SUMMARY
+-------
+Fio is a newly introduced lightweight 3D world editor and game engine that utilizes a brush-based Constructive Solid Geometry (CSG) workflow. Inspired by classic tools like Radiant and Hammer from the Quake and GoldSrc eras, it features a unified forward renderer and real-time lighting with stencil shadows, notably removing the need for pre-baked lightmaps or long compilation times. It is designed to be compact, targeting OpenGL 3.3 and hardware like the Snapdragon 8CX.
+
+KEY THEMES
+----------
+  • Nostalgia for classic level-design workflows
+  • Technical implementation of CSG and draw optimization
+  • The challenges of entering a saturated game engine market
+  • Real-time rendering vs. traditional pre-baked compilation
+  • The transition from hobbyist map-making to professional development
+
+NOTABLE INSIGHTS
+----------------
+  1. Users expressed a strong emotional connection to 'liminal' brush-based editing, which was a staple of early 2000s competitive FPS modding.
+  2. A key technical distinction of Fio is its ability to handle lighting and shadows in real-time without the traditional 'baking' phase required by its inspirations (Radiant/Hammer).
+  3. A veteran in the space suggested that for a new engine to succeed in a saturated market, it requires a clear Unique Selling Point (USP) and aggressive visibility/SEO strategies, as technical quality alone is often insufficient for adoption.
+  4. The project currently includes 14 examples and is seeking community contributions for features like angled brushes and new entity types.
+
+COMMUNITY SENTIMENT
+-------------------
+The sentiment is generally positive and warmly nostalgic, with users reminiscing about early game modding. However, there is an undercurrent of pragmatic skepticism regarding the difficulty of gaining traction as a new game engine in the current industry landscape.
+
+CONTROVERSY SIGNAL
+------------------
+Low. The discussion is civil and supportive, though there is a realistic debate about the commercial and adoption hurdles for new developer tools.
+
+REASONING TRACE
+---------------
+I analyzed the post content and the 6 comments provided. I identified the primary focus as a 'Show HN' for a developer tool. I categorized the comments into three groups: nostalgic appreciation, technical inquiry, and market-based advice. I then synthesized these into the summary and themes, ensuring the technical aspects mentioned by the author (OpenGL 3.3, lack of baking) were highlighted as notable insights.
+
+2026-03-27-16-05-02 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-05-38 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-16-05-44 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-05-44 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-05-45 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-16-05-45 - post_summarizer_stapp_cache - DEBUG - Fetched 12371 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-05-45 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47535626
+2026-03-27-16-05-45 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: ============================================================
+Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News
+https://news.ycombinator.com/item?id=47535626
+============================================================
+
+SUMMARY
+-------
+Fio is a newly introduced lightweight 3D world editor and game engine that utilizes a brush-based Constructive Solid Geometry (CSG) workflow. Inspired by classic tools like Radiant and Hammer from the Quake and GoldSrc eras, it features a unified forward renderer and real-time lighting with stencil shadows, notably removing the need for pre-baked lightmaps or long compilation times. It is designed to be compact, targeting OpenGL 3.3 and hardware like the Snapdragon 8CX.
+
+KEY THEMES
+----------
+  • Nostalgia for classic level-design workflows
+  • Technical implementation of CSG and draw optimization
+  • The challenges of entering a saturated game engine market
+  • Real-time rendering vs. traditional pre-baked compilation
+  • The transition from hobbyist map-making to professional development
+
+NOTABLE INSIGHTS
+----------------
+  1. Users expressed a strong emotional connection to 'liminal' brush-based editing, which was a staple of early 2000s competitive FPS modding.
+  2. A key technical distinction of Fio is its ability to handle lighting and shadows in real-time without the traditional 'baking' phase required by its inspirations (Radiant/Hammer).
+  3. A veteran in the space suggested that for a new engine to succeed in a saturated market, it requires a clear Unique Selling Point (USP) and aggressive visibility/SEO strategies, as technical quality alone is often insufficient for adoption.
+  4. The project currently includes 14 examples and is seeking community contributions for features like angled brushes and new entity types.
+
+COMMUNITY SENTIMENT
+-------------------
+The sentiment is generally positive and warmly nostalgic, with users reminiscing about early game modding. However, there is an undercurrent of pragmatic skepticism regarding the difficulty of gaining traction as a new game engine in the current industry landscape.
+
+CONTROVERSY SIGNAL
+------------------
+Low. The discussion is civil and supportive, though there is a realistic debate about the commercial and adoption hurdles for new developer tools.
+
+REASONING TRACE
+---------------
+I analyzed the post content and the 6 comments provided. I identified the primary focus as a 'Show HN' for a developer tool. I categorized the comments into three groups: nostalgic appreciation, technical inquiry, and market-based advice. I then synthesized these into the summary and themes, ensuring the technical aspects mentioned by the author (OpenGL 3.3, lack of baking) were highlighted as notable insights.
+
+2026-03-27-16-05-45 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-06-18 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-06-18 - post_summarizer_stapp_cache - INFO - Fetching top 4 posts from https://news.ycombinator.com
+2026-03-27-16-06-18 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-06-19 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-06-19 - post_summarizer_stapp_cache - INFO - Found 4 posts from https://news.ycombinator.com
+2026-03-27-16-06-19 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 4
+2026-03-27-16-06-19 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-06-19 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-16-06-19 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539767
+2026-03-27-16-06-19 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47540929
+2026-03-27-16-06-19 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47540929
+2026-03-27-16-06-19 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47540929
+2026-03-27-16-06-19 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-06-21 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47540929 HTTP/1.1" 200 None
+2026-03-27-16-06-21 - post_summarizer_stapp_cache - DEBUG - Fetched 4141 chars from https://news.ycombinator.com/item?id=47540929
+2026-03-27-16-06-21 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-16-06-21 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-16-06-21 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001857BE21CD0>
+2026-03-27-16-06-21 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001857A3B5760> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-16-06-21 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001857BE13E50>
+2026-03-27-16-06-21 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-16-06-21 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-16-06-21 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-16-06-21 - _trace - DEBUG - send_request_body.complete
+2026-03-27-16-06-21 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-16-06-39 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:36:39 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=18671'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-16-06-39 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-16-06-39 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-16-06-39 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-16-06-39 - _trace - DEBUG - response_closed.started
+2026-03-27-16-06-39 - _trace - DEBUG - response_closed.complete
+2026-03-27-16-06-39 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47540929
+2026-03-27-16-06-39 - _trace - DEBUG - close.started
+2026-03-27-16-06-39 - _trace - DEBUG - close.complete
+2026-03-27-16-06-39 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47540929
+2026-03-27-16-06-39 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-18-39 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-18-39 - post_summarizer_stapp_cache - INFO - Fetching top 4 posts from https://news.ycombinator.com
+2026-03-27-16-18-39 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-18-40 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-18-40 - post_summarizer_stapp_cache - INFO - Found 4 posts from https://news.ycombinator.com
+2026-03-27-16-18-40 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 4
+2026-03-27-16-18-40 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-18-40 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-18-40 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-18-41 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-18-41 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-18-42 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47540833 HTTP/1.1" 200 None
+2026-03-27-16-18-42 - post_summarizer_stapp_cache - DEBUG - Fetched 10888 chars from https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-18-42 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-16-18-42 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-16-18-43 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AED5E1B3D0>
+2026-03-27-16-18-43 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001AED5D78440> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-16-18-43 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AED5E1B6D0>
+2026-03-27-16-18-43 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-16-18-43 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-16-18-43 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-16-18-43 - _trace - DEBUG - send_request_body.complete
+2026-03-27-16-18-43 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-16-18-52 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 10:48:52 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=8649'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-16-18-52 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-16-18-52 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-16-18-52 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-16-18-52 - _trace - DEBUG - response_closed.started
+2026-03-27-16-18-52 - _trace - DEBUG - response_closed.complete
+2026-03-27-16-18-52 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-18-52 - _trace - DEBUG - close.started
+2026-03-27-16-18-52 - _trace - DEBUG - close.complete
+2026-03-27-16-18-52 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-18-52 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540929
+2026-03-27-16-18-52 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-16-18-52 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-33-08 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-33-08 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-16-33-08 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-33-09 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-33-09 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-16-33-09 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-16-33-09 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-33-09 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-33-09 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-33-19 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-33-19 - post_summarizer_stapp_cache - INFO - Fetching top 3 posts from https://news.ycombinator.com
+2026-03-27-16-33-19 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-33-22 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-33-22 - post_summarizer_stapp_cache - INFO - Found 3 posts from https://news.ycombinator.com
+2026-03-27-16-33-22 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 3
+2026-03-27-16-33-22 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-33-22 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-33-22 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-16-33-22 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-34-00 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-16-34-00 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47492871
+2026-03-27-16-34-00 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-34-02 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47492871 HTTP/1.1" 200 None
+2026-03-27-16-34-02 - post_summarizer_stapp_cache - DEBUG - Fetched 8395 chars from https://news.ycombinator.com/item?id=47492871
+2026-03-27-16-34-03 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47492871
+2026-03-27-16-34-03 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47492871
+2026-03-27-16-34-03 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47492871
+2026-03-27-16-34-03 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-34-04 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47492871 HTTP/1.1" 200 None
+2026-03-27-16-34-04 - post_summarizer_stapp_cache - DEBUG - Fetched 8395 chars from https://news.ycombinator.com/item?id=47492871
+2026-03-27-16-34-04 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-16-34-04 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-16-34-04 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000027C76238DD0>
+2026-03-27-16-34-04 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000027C75EAC200> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-16-34-04 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000027C75FE6750>
+2026-03-27-16-34-04 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-16-34-04 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-16-34-04 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-16-34-04 - _trace - DEBUG - send_request_body.complete
+2026-03-27-16-34-04 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-16-34-05 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'X-Gemini-Service-Tier', b'standard'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 11:04:05 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=335'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-16-34-05 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27-16-34-05 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-16-34-05 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-16-34-05 - _trace - DEBUG - response_closed.started
+2026-03-27-16-34-05 - _trace - DEBUG - response_closed.complete
+2026-03-27-16-34-05 - post_summarizer_stapp_cache - ERROR - Analysis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 54.653222249s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}
+2026-03-27-16-34-05 - _trace - DEBUG - close.started
+2026-03-27-16-34-05 - _trace - DEBUG - close.complete
+2026-03-27-16-35-56 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-35-56 - post_summarizer_stapp_cache - INFO - Fetching top 4 posts from https://news.ycombinator.com
+2026-03-27-16-35-56 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-35-57 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-35-57 - post_summarizer_stapp_cache - INFO - Found 4 posts from https://news.ycombinator.com
+2026-03-27-16-35-57 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 4
+2026-03-27-16-35-57 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-35-57 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-35-57 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-16-35-57 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540929
+2026-03-27-16-35-57 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-40-21 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-40-21 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-16-40-21 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-40-23 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-40-23 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-16-40-23 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-16-40-23 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-40-23 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-40-23 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-46-30 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-46-30 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-16-46-30 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-46-32 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-46-32 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-16-46-32 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-16-46-32 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-46-32 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-46-32 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-47-50 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-47-50 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-16-47-50 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-47-51 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-47-51 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-16-47-51 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-16-47-51 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-47-51 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-47-51 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-16-48-36 - post_summarizer_stapp_cache_v1 - INFO - Analysis started — mode: Top N Posts
+2026-03-27-16-48-36 - post_summarizer_stapp_cache_v1 - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-16-48-36 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-16-48-37 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-16-48-37 - post_summarizer_stapp_cache_v1 - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-16-48-37 - post_summarizer_stapp_cache_v1 - DEBUG - Fetched posts: 2
+2026-03-27-16-48-37 - post_summarizer_stapp_cache_v1 - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-16-48-37 - post_summarizer_stapp_cache_v1 - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-16-48-37 - post_summarizer_stapp_cache_v1 - INFO - Analysis completed successfully
+2026-03-27-18-56-14 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-18-56-14 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-18-56-14 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-56-15 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-18-56-15 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-18-56-15 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-18-56-15 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-18-56-15 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-18-56-15 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-18-56-22 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-18-56-22 - post_summarizer_stapp_cache - INFO - Fetching top 4 posts from https://news.ycombinator.com
+2026-03-27-18-56-22 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-56-24 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-18-56-24 - post_summarizer_stapp_cache - INFO - Found 4 posts from https://news.ycombinator.com
+2026-03-27-18-56-24 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 4
+2026-03-27-18-56-24 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-56-24 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-56-24 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-56-24 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-56-25 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47542057 HTTP/1.1" 200 None
+2026-03-27-18-56-25 - post_summarizer_stapp_cache - DEBUG - Fetched 6686 chars from https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-56-25 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-18-56-25 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-18-56-26 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B4A9D17890>
+2026-03-27-18-56-26 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B4A987BBF0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-18-56-26 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B4A9CEF550>
+2026-03-27-18-56-26 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-18-56-26 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-18-56-26 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-18-56-26 - _trace - DEBUG - send_request_body.complete
+2026-03-27-18-56-26 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-18-56-33 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 13:26:33 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=7184'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-18-56-33 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-18-56-33 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-18-56-33 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-18-56-33 - _trace - DEBUG - response_closed.started
+2026-03-27-18-56-33 - _trace - DEBUG - response_closed.complete
+2026-03-27-18-56-33 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-56-33 - _trace - DEBUG - close.started
+2026-03-27-18-56-33 - _trace - DEBUG - close.complete
+2026-03-27-18-56-33 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-56-33 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-18-56-33 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-18-56-33 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-18-56-33 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-18-57-03 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-18-57-03 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-18-57-03 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-57-04 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-18-57-04 - post_summarizer_stapp_cache - DEBUG - Fetched 14929 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-18-57-04 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47535626
+2026-03-27-18-57-04 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: [{'title': 'Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News', 'url': 'https://news.ycombinator.com/item?id=47535626', 'text': "============================================================\nShow HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News\nhttps://news.ycombinator.com/item?id=47535626\n============================================================\n\nSUMMARY\n-------\nFio is a newly introduced lightweight 3D world editor and game engine that utilizes a brush-based Constructive Solid Geometry (CSG) workflow. Inspired by classic tools like Radiant and Hammer from the Quake and GoldSrc eras, it features a unified forward renderer and real-time lighting with stencil shadows, notably removing the need for pre-baked lightmaps or long compilation times. It is designed to be compact, targeting OpenGL 3.3 and hardware like the Snapdragon 8CX.\n\nKEY THEMES\n----------\n  • Nostalgia for classic level-design workflows\n  • Technical implementation of CSG and draw optimization\n  • The challenges of entering a saturated game engine market\n  • Real-time rendering vs. traditional pre-baked compilation\n  • The transition from hobbyist map-making to professional development\n\nNOTABLE INSIGHTS\n----------------\n  1. Users expressed a strong emotional connection to 'liminal' brush-based editing, which was a staple of early 2000s competitive FPS modding.\n  2. A key technical distinction of Fio is its ability to handle lighting and shadows in real-time without the traditional 'baking' phase required by its inspirations (Radiant/Hammer).\n  3. A veteran in the space suggested that for a new engine to succeed in a saturated market, it requires a clear Unique Selling Point (USP) and aggressive visibility/SEO strategies, as technical quality alone is often insufficient for adoption.\n  4. The project currently includes 14 examples and is seeking community contributions for features like angled brushes and new entity types.\n\nCOMMUNITY SENTIMENT\n-------------------\nThe sentiment is generally positive and warmly nostalgic, with users reminiscing about early game modding. However, there is an undercurrent of pragmatic skepticism regarding the difficulty of gaining traction as a new game engine in the current industry landscape.\n\nCONTROVERSY SIGNAL\n------------------\nLow. The discussion is civil and supportive, though there is a realistic debate about the commercial and adoption hurdles for new developer tools.\n\nREASONING TRACE\n---------------\nI analyzed the post content and the 6 comments provided. I identified the primary focus as a 'Show HN' for a developer tool. I categorized the comments into three groups: nostalgic appreciation, technical inquiry, and market-based advice. I then synthesized these into the summary and themes, ensuring the technical aspects mentioned by the author (OpenGL 3.3, lack of baking) were highlighted as notable insights.\n"}]
+2026-03-27-18-57-04 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-18-57-19 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-18-57-22 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535626
+2026-03-27-18-57-22 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-57-23 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535626 HTTP/1.1" 200 None
+2026-03-27-18-57-23 - post_summarizer_stapp_cache - DEBUG - Fetched 14929 chars from https://news.ycombinator.com/item?id=47535626
+2026-03-27-18-57-23 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47535626
+2026-03-27-18-57-23 - post_summarizer_stapp_cache - INFO - Analyzed given url https://news.ycombinator.com/item?id=47535626. Result: [{'title': 'Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News', 'url': 'https://news.ycombinator.com/item?id=47535626', 'text': "============================================================\nShow HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer | Hacker News\nhttps://news.ycombinator.com/item?id=47535626\n============================================================\n\nSUMMARY\n-------\nFio is a newly introduced lightweight 3D world editor and game engine that utilizes a brush-based Constructive Solid Geometry (CSG) workflow. Inspired by classic tools like Radiant and Hammer from the Quake and GoldSrc eras, it features a unified forward renderer and real-time lighting with stencil shadows, notably removing the need for pre-baked lightmaps or long compilation times. It is designed to be compact, targeting OpenGL 3.3 and hardware like the Snapdragon 8CX.\n\nKEY THEMES\n----------\n  • Nostalgia for classic level-design workflows\n  • Technical implementation of CSG and draw optimization\n  • The challenges of entering a saturated game engine market\n  • Real-time rendering vs. traditional pre-baked compilation\n  • The transition from hobbyist map-making to professional development\n\nNOTABLE INSIGHTS\n----------------\n  1. Users expressed a strong emotional connection to 'liminal' brush-based editing, which was a staple of early 2000s competitive FPS modding.\n  2. A key technical distinction of Fio is its ability to handle lighting and shadows in real-time without the traditional 'baking' phase required by its inspirations (Radiant/Hammer).\n  3. A veteran in the space suggested that for a new engine to succeed in a saturated market, it requires a clear Unique Selling Point (USP) and aggressive visibility/SEO strategies, as technical quality alone is often insufficient for adoption.\n  4. The project currently includes 14 examples and is seeking community contributions for features like angled brushes and new entity types.\n\nCOMMUNITY SENTIMENT\n-------------------\nThe sentiment is generally positive and warmly nostalgic, with users reminiscing about early game modding. However, there is an undercurrent of pragmatic skepticism regarding the difficulty of gaining traction as a new game engine in the current industry landscape.\n\nCONTROVERSY SIGNAL\n------------------\nLow. The discussion is civil and supportive, though there is a realistic debate about the commercial and adoption hurdles for new developer tools.\n\nREASONING TRACE\n---------------\nI analyzed the post content and the 6 comments provided. I identified the primary focus as a 'Show HN' for a developer tool. I categorized the comments into three groups: nostalgic appreciation, technical inquiry, and market-based advice. I then synthesized these into the summary and themes, ensuring the technical aspects mentioned by the author (OpenGL 3.3, lack of baking) were highlighted as notable insights.\n"}]
+2026-03-27-18-57-23 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-18-57-34 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-18-57-34 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-18-57-34 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-57-36 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-18-57-36 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-18-57-36 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-18-57-36 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-57-36 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-18-57-36 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-18-57-41 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-18-57-41 - post_summarizer_stapp_cache - INFO - Fetching top 5 posts from https://news.ycombinator.com
+2026-03-27-18-57-41 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-57-43 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - INFO - Found 5 posts from https://news.ycombinator.com
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 5
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-57-43 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-57-43 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-57-44 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535708 HTTP/1.1" 200 None
+2026-03-27-18-57-44 - post_summarizer_stapp_cache - DEBUG - Fetched 574498 chars from https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-57-44 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-18-57-44 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-18-57-45 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B4A9DFF510>
+2026-03-27-18-57-45 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B4A5F190A0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-18-57-45 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B4A9DFF490>
+2026-03-27-18-57-45 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-18-57-45 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-18-57-45 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-18-57-45 - _trace - DEBUG - send_request_body.complete
+2026-03-27-18-57-45 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-18-57-45 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'X-Gemini-Service-Tier', b'standard'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 13:27:46 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=592'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-18-57-45 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27-18-57-45 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-18-57-45 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-18-57-45 - _trace - DEBUG - response_closed.started
+2026-03-27-18-57-45 - _trace - DEBUG - response_closed.complete
+2026-03-27-18-57-45 - post_summarizer_stapp_cache - ERROR - Error in mode Top_N_posts analysis: url: https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-57-45 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-18-57-45 - _trace - DEBUG - close.started
+2026-03-27-18-57-45 - _trace - DEBUG - close.complete
+2026-03-27-18-58-37 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-18-58-37 - post_summarizer_stapp_cache - INFO - Fetching top 4 posts from https://news.ycombinator.com
+2026-03-27-18-58-37 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-58-40 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-18-58-40 - post_summarizer_stapp_cache - INFO - Found 4 posts from https://news.ycombinator.com
+2026-03-27-18-58-40 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 4
+2026-03-27-18-58-40 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-58-40 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-18-58-40 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-18-58-40 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-18-58-40 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-18-58-46 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-18-58-46 - post_summarizer_stapp_cache - INFO - Fetching top 5 posts from https://news.ycombinator.com
+2026-03-27-18-58-46 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-58-47 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - INFO - Found 5 posts from https://news.ycombinator.com
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 5
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47542057
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-58-47 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-58-47 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-18-58-48 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47535708 HTTP/1.1" 200 None
+2026-03-27-18-58-49 - post_summarizer_stapp_cache - DEBUG - Fetched 574498 chars from https://news.ycombinator.com/item?id=47535708
+2026-03-27-18-58-49 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-18-58-49 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-18-58-49 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B4A9DF8210>
+2026-03-27-18-58-49 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001B4A5F18560> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-18-58-49 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B4A9DF81D0>
+2026-03-27-18-58-49 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-18-58-49 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-18-58-49 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-18-58-49 - _trace - DEBUG - send_request_body.complete
+2026-03-27-18-58-49 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-19-02-28 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'X-Gemini-Service-Tier', b'standard'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 13:32:28 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=218656'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-19-02-28 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-27-19-02-28 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-19-02-28 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-19-02-28 - _trace - DEBUG - response_closed.started
+2026-03-27-19-02-28 - _trace - DEBUG - response_closed.complete
+2026-03-27-19-02-28 - post_summarizer_stapp_cache - DEBUG - Gemini response received for: https://news.ycombinator.com/item?id=47535708
+2026-03-27-19-02-28 - _trace - DEBUG - close.started
+2026-03-27-19-02-28 - _trace - DEBUG - close.complete
+2026-03-27-19-02-28 - post_summarizer_stapp_cache - INFO - Saved to cache: https://news.ycombinator.com/item?id=47535708
+2026-03-27-19-03-28 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-19-03-28 - post_summarizer_stapp_cache - INFO - Fetching top 4 posts from https://news.ycombinator.com
+2026-03-27-19-03-28 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-19-03-29 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-19-03-29 - post_summarizer_stapp_cache - INFO - Found 4 posts from https://news.ycombinator.com
+2026-03-27-19-03-29 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 4
+2026-03-27-19-03-29 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47542057
+2026-03-27-19-03-29 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-19-03-29 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-19-03-29 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-19-03-29 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-19-03-34 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-19-03-34 - post_summarizer_stapp_cache - INFO - Fetching top 5 posts from https://news.ycombinator.com
+2026-03-27-19-03-34 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-19-03-36 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-19-03-36 - post_summarizer_stapp_cache - INFO - Found 5 posts from https://news.ycombinator.com
+2026-03-27-19-03-36 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 5
+2026-03-27-19-03-36 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47542057
+2026-03-27-19-03-36 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-19-03-36 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539825
+2026-03-27-19-03-36 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47539188
+2026-03-27-19-03-36 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47535708
+2026-03-27-19-03-36 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-19-06-43 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Top N Posts
+2026-03-27-19-06-43 - post_summarizer_stapp_cache - INFO - Fetching top 2 posts from https://news.ycombinator.com
+2026-03-27-19-06-43 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-19-06-45 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET / HTTP/1.1" 200 None
+2026-03-27-19-06-45 - post_summarizer_stapp_cache - INFO - Found 2 posts from https://news.ycombinator.com
+2026-03-27-19-06-45 - post_summarizer_stapp_cache - DEBUG - Fetched posts: 2
+2026-03-27-19-06-45 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47542057
+2026-03-27-19-06-45 - post_summarizer_stapp_cache - INFO - Cache hit: https://news.ycombinator.com/item?id=47540833
+2026-03-27-19-06-45 - post_summarizer_stapp_cache - INFO - Analysis completed successfully
+2026-03-27-19-07-19 - post_summarizer_stapp_cache - INFO - Analysis started — mode: Single URL
+2026-03-27-19-07-19 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47492871
+2026-03-27-19-07-19 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-19-07-20 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47492871 HTTP/1.1" 200 None
+2026-03-27-19-07-20 - post_summarizer_stapp_cache - DEBUG - Fetched 9581 chars from https://news.ycombinator.com/item?id=47492871
+2026-03-27-19-07-20 - post_summarizer_stapp_cache - INFO - Cache miss, analyzing: https://news.ycombinator.com/item?id=47492871
+2026-03-27-19-07-20 - post_summarizer_stapp_cache - INFO - Calling Gemini for summarizing https://news.ycombinator.com/item?id=47492871
+2026-03-27-19-07-21 - post_summarizer_stapp_cache - DEBUG - Fetching URL: https://news.ycombinator.com/item?id=47492871
+2026-03-27-19-07-21 - connectionpool - DEBUG - Starting new HTTPS connection (1): news.ycombinator.com:443
+2026-03-27-19-07-24 - connectionpool - DEBUG - https://news.ycombinator.com:443 "GET /item?id=47492871 HTTP/1.1" 200 None
+2026-03-27-19-07-24 - post_summarizer_stapp_cache - DEBUG - Fetched 9581 chars from https://news.ycombinator.com/item?id=47492871
+2026-03-27-19-07-24 - models - INFO - AFC is enabled with max remote calls: 10.
+2026-03-27-19-07-24 - _trace - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-27-19-07-24 - _trace - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000024EDF3FE010>
+2026-03-27-19-07-24 - _trace - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000024EDF13DF40> server_hostname='generativelanguage.googleapis.com' timeout=None
+2026-03-27-19-07-24 - _trace - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000024EDF057550>
+2026-03-27-19-07-24 - _trace - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-27-19-07-24 - _trace - DEBUG - send_request_headers.complete
+2026-03-27-19-07-24 - _trace - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-27-19-07-24 - _trace - DEBUG - send_request_body.complete
+2026-03-27-19-07-24 - _trace - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-27-19-07-24 - _trace - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'X-Gemini-Service-Tier', b'standard'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Fri, 27 Mar 2026 13:37:24 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=271'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-27-19-07-24 - _client - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-03-27-19-07-24 - _trace - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-27-19-07-24 - _trace - DEBUG - receive_response_body.complete
+2026-03-27-19-07-24 - _trace - DEBUG - response_closed.started
+2026-03-27-19-07-24 - _trace - DEBUG - response_closed.complete
+2026-03-27-19-07-24 - post_summarizer_stapp_cache - ERROR - Analysis failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\nPlease retry in 35.053923266s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}
+2026-03-27-19-07-24 - _trace - DEBUG - close.started
+2026-03-27-19-07-24 - _trace - DEBUG - close.complete

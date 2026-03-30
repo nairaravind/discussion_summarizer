@@ -1,0 +1,37 @@
+# AI Engineering Technical Assessment
+
+**Duration:** 60 minutes | **Format:** Live coding, no prep required | **API key:** Gemini (provided)
+
+---
+
+## The Task
+
+The [Hacker News API](https://github.com/HackerNews/API) is a free, public, no-auth API that exposes the front page of Hacker News in real time.
+
+**Your goal:** Fetch the current #1 story and its comments, then use an LLM to produce a structured analysis of the discussion.
+
+You may retrieve the data however you like: programmatic fetch, curl, or copy-paste from the browser. What matters is what you do with it.
+
+---
+
+## Required Outputs
+
+Produce a structured object that captures the following. The field design is up to you.
+
+- **Summary:** what is this story about, based on the discussion?
+- **Key themes:** the main topics the community is actually debating
+- **Notable insights:** specific, well-supported claims or perspectives surfaced in the comments
+- **Community sentiment:** the overall tone of the thread
+- **Controversy signal:** how heated or divided is the discussion?
+- **Reasoning trace:** your model's chain of thought before arriving at conclusions
+
+---
+
+## Useful Links
+
+- HN API docs: [github.com/HackerNews/API](https://github.com/HackerNews/API)
+- HN front page (for reference): [news.ycombinator.com](https://news.ycombinator.com)
+
+---
+
+*Use any libraries you'd like. Ask questions if something is ambiguous. Think out loud; we're as interested in your process as your output.
